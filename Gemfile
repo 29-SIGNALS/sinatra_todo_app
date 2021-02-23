@@ -13,6 +13,7 @@ gem 'pony'
 gem 'bcrypt'
 gem "tux"
 gem "mysql2"
+gem 'sinatra-advanced-routes', :require => 'sinatra/advanced_routes'
 
 
 
