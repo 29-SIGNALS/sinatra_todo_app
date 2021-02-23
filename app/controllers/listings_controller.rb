@@ -2,6 +2,7 @@ class ListingsController < ApplicationController
 
   # GET: NOT LOGGED IN
   get "/listings/view-listings" do
+    @listing = Listing.all
     erb :"/listings/view-listings"
   end
 
