@@ -13,7 +13,6 @@ gem 'pony'
 gem 'bcrypt'
 gem "tux"
 gem "mysql2"
-gem 'sinatra-advanced-routes', :require => 'sinatra/advanced_routes'
 
 
 
@@ -28,5 +27,4 @@ group :test do
   gem 'capybara'
   gem 'rack-test'
   gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
-  gem 'sqlite3'
 end
